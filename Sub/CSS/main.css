@@ -1,0 +1,85 @@
+
+form{
+  font-family: tahoma;
+  background-color: #013ADF;
+  width: 90%;
+  height: 95%;
+  color: white;
+  box-sizing: border-box;
+  padding: 5% 5% 5% 5%;
+  overflow: hidden;
+  overflow: scroll;
+  margin: 1.5% 5% 1.5% 5%;
+  padding-top: 2%;
+}
+
+form p{
+  display: inline-block;
+  width: 45%;
+  margin-left: 3%;
+  font-size: 20px;
+}
+
+
+form h2{
+  text-decoration: underline;
+}
+
+form::-webkit-scrollbar {
+  width: 10px;
+  background-color: #222;
+}
+form::-webkit-scrollbar-thumb{
+  background-color:#000;
+  border-radius: 5px;
+  border-right: 1px solid #111;
+}
+
+input[type="submit"] {
+  margin-top: 1%;
+    display:inline-block;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    background: rgba(37, 37, 33, .7);
+    width: 50%;
+    height: 30%;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"] {
+    display: inline-block;
+    width: 80%;
+    padding: 0.5%;
+    border: none;
+    color: #fff;
+    background: rgba(18, 25, 20, .5);
+    border-top: 5px solid rgba(37, 37, 33, .7);
+    font-size: 18px;
+}
+input[type="submit"]:hover,
+input[type="text"]:hover,
+input[type="password"]:hover,
+textarea {
+    background: rgba(255, 255, 225, .7);
+    border-top: 5px solid rgba(0, 0, 0, .7);
+}
+input[type="file"] {
+    display:inline-block;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    background: rgba(37, 37, 33, .7);
+    width: 75%;
+    height: 5%;
+}
+textarea{
+  display: inline-block;
+  width: 80%;
+  padding: 0.5%;
+  border: none;
+  color: #fff;
+  background: rgba(18, 25, 20, .5);
+  border-top: 5px solid rgba(37, 37, 33, .7);
+}
